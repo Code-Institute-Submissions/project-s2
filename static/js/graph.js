@@ -1,16 +1,13 @@
-/**
- * Created by home on 26/04/2017.
- */
 queue()
-   .defer(d3.json, "/donorsUS/projects")
+   .defer(d3.json, "/donorsChooseU/school_projects")
    .await(makeGraphs);
 
 function makeGraphs(error, projectsJson) {
 
    //Clean projectsJson data
-   var donorsUSProjects = projectsJson;
+   var donorsChooseU_school_projects = projectsJson;
    var dateFormat = d3.time.format("%Y-%m-%d %H:%M:%S");
-   donorsUSProjects.forEach(function (d) {
+   donorsChooseU_school_projects.forEach(function (d) {
        d["date_posted"] = dateFormat.parse(d["date_posted"]);
        d["date_posted"].setDate(1);
        d["total_donations"] = +d["total_donations"];
@@ -18,7 +15,7 @@ function makeGraphs(error, projectsJson) {
 
 
    //Create a Crossfilter instance
-   var ndx = crossfilter(donorsUSProjects);
+   var ndx = crossfilter(donorsChooseU_school_projects);
 
    //Define Dimensions
    var dateDim = ndx.dimension(function (d) {
