@@ -11,7 +11,7 @@ DBS_NAME = 'donorsChooseUS'
 COLLECTION_NAME = 'schoolprojects'
 
 @app.route("/")
-def home():
+def home_page():
     """
     Home page 
     """
