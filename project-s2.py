@@ -11,6 +11,13 @@ DBS_NAME = 'donorsChooseUS'
 COLLECTION_NAME = 'schoolprojects'
 
 
+@app.route("/home")
+def home():
+    """
+    A Flask view to serve the main dashboard page.
+    """
+    return render_template("home.html")
+
 @app.route("/")
 def index():
     """
