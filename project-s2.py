@@ -10,20 +10,27 @@ MONGODB_PORT = 27017
 DBS_NAME = 'donorsChooseUS'
 COLLECTION_NAME = 'schoolprojects'
 
-
-@app.route("/home")
-def home():
-    """
-    A Flask view to serve the main dashboard page.
-    """
-    return render_template("home.html")
-
 @app.route("/")
 def index():
     """
     A Flask view to serve the main dashboard page.
     """
     return render_template("index.html")
+
+
+@app.route("/home")
+def home():
+    """
+    home page
+    """
+    return render_template("home.html")
+
+@app.route("/issues")
+def issues():
+    """
+    A Flask view to serve the dashboard page.
+    """
+    return render_template("issues.html")
 
 @app.route("/donorsChooseU/school_projects")
 def school_projects():
@@ -49,6 +56,20 @@ def school_projects():
         projects = collection.find(projection=FIELDS, limit=55000)
         # Convert projects to a list in a JSON object and return the JSON data
         return json.dumps(list(projects))
+
+@app.route("/about")
+def about():
+    """
+    about page
+    """
+    return render_template("about.html")
+
+@app.route("/donate")
+def donate():
+    """
+    donate page
+    """
+    return render_template("donate.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
