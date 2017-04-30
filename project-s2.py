@@ -19,8 +19,8 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/donorsChooseU/school_projects")
-def school_projects():
+@app.route("/issues")
+def funding_issues():
     """
     A Flask view to serve the project data from
     MongoDB in JSON format.
