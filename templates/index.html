@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>School Donations Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for ('static',
+    filename='lib/css/introjs.css')}}"/>
+  <link rel="stylesheet" href="{{ url_for ('static',
+    filename='lib/css/bootstrap.min.css')}}">
+  <link rel="stylesheet" href="{{ url_for ('static',
+    filename='lib/css/keen-dashboards.css')}}">
+  <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
+  <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css')}}">
+</head>
+
+<body>
+ <header id="header">
+  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="./"></a>
+          <ul class="nav navbar-nav pull-left">
+              <li><a href= "{{ url_for('home') }}">home</a></li>
+              <li><a href= "{{ url_for('issues') }}">issues</a></li>
+              <li><a href= "{{ url_for('about') }}">about</a></li>
+              <li><a href= "{{ url_for('donate') }}">donate</a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+ </header>
+
+
+  <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/d3.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/dc.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/queue.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/keen.min.js')}}"></script>
+  <script src="{{ url_for ('static', filename='js/graph.js')}}"></script>
+  <script src="{{ url_for ('static', filename='lib/js/intro.js')}}"></script>
+</>
+</html>
