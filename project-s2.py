@@ -10,14 +10,19 @@ MONGODB_PORT = 27017
 DBS_NAME = 'donorsChooseUS'
 COLLECTION_NAME = 'schoolprojects'
 
-
 @app.route("/")
+def home():
+    """
+    Home page 
+    """
+    return render_template("home.html")
+
+@app.route("/index")
 def index():
     """
     A Flask view to serve the main dashboard page.
     """
     return render_template("index.html")
-
 
 @app.route("/donorsChooseU/school_projects")
 def school_projects():
