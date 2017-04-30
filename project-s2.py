@@ -15,9 +15,9 @@ def home():
     """
     Home page 
     """
-    return render_template("home.html")
+    return ("home.html")
 
-@app.route("/index")
+@app.route("/funding_issues")
 def index():
     """
     A Flask view to serve the main dashboard page.
