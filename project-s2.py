@@ -15,7 +15,7 @@ def home_page():
     """
     Home page 
     """
-    return ("home.html")
+    return render_template("home.html")
 
 @app.route("/funding_issues")
 def index():
