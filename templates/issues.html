@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>School Donations Dashboard</title>
+  <title>Issues</title>
     <link rel="stylesheet" href="{{ url_for ('static',
     filename='lib/css/introjs.css')}}"/>
   <link rel="stylesheet" href="{{ url_for ('static',
@@ -11,15 +11,24 @@
   <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/dc.css')}}">
   <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css')}}">
 </head>
-<body class="application">
+
+<body>
+ <header id="header">
   <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="./">School Donations Dashboard</a>
-         <button class="intro_button" type="button" autofocus onclick="javascript:introJs().start();">Start Tour!</button>
+        <a class="navbar-brand" href="./"></a>
+          <ul class="nav navbar-nav pull-left">
+              <li><a href= "{{ url_for('home') }}">home</a></li>
+              <li><a href= "{{ url_for('issues') }}">issues</a></li>
+              <li><a href= "{{ url_for('about') }}">about</a></li>
+              <li><a href= "{{ url_for('donate') }}">donate</a></li>
+          </ul>
       </div>
     </div>
   </div>
+ </header>
+
   <div  id="outer" class="container-fluid">
     <div class="row">
       <div class="col-sm-8">
@@ -126,7 +135,7 @@
     </div>
   </div>
   <hr>
-  <p class="small text-muted"> Data viz &#9829; from Code Institute</p>
+
   <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/crossfilter.js')}}"></script>
