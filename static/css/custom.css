@@ -71,6 +71,12 @@ body {
     -o-background-size: cover;
 }
 
+.row {
+    margin-right: -15px;
+    margin-left: 55px;
+}
+
+
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
