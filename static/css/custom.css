@@ -71,7 +71,7 @@ background-color:#FFF
 
 }
 
-.container-fluid {
+#header .container-fluid {
     padding-right: 15px;
     padding-left: 500px;
     margin-right: auto;
