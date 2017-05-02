@@ -155,5 +155,6 @@ footer {
 }
 
 footer p {
-   margin-left: 70px;
+   margin-right: -255px;
+   float: right;
 }
