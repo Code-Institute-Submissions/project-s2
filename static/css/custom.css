@@ -134,9 +134,9 @@ label {
 }
 
 .btn-success:hover {
-   background-color: midnightblue;
-   border-color: midnightblue;
-   color: white;
+   background-color: darkgoldenrod;
+   border-color: whitesmoke;
+   color: midnightblue;
 }
 
 /* Customize the text color and shadow color and to optimize text legibility. */
@@ -155,6 +155,12 @@ footer {
 }
 
 footer p {
-   margin-right: -255px;
+   margin-right: 80px;
    float: right;
+}
+
+address {
+   margin-right: 80px;
+   float:right;
+    text-align: right;
 }
