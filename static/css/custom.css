@@ -77,6 +77,14 @@ background-color:#FFF
 
 }
 
+.navbar-inverse .navbar-nav>li>a:hover {
+   color: darkgoldenrod;
+}
+
+div.navbar-header {
+   margin-left: 40%;
+}
+
 /*contacts box */
 
 button.btn.btn-lg {
@@ -87,8 +95,8 @@ button.btn.btn-lg {
 }
 
 button.btn.btn-lg:hover {
-   background-color: darkgrey;
-   border-color: darkgrey;
+   background-color: darkgoldenrod;
+   border-color: darkgoldenrod;
    color: white;
 }
 
@@ -100,8 +108,8 @@ button.btn.btn-default.btn-lg {
 }
 
 button.btn.btn-default.btn-lg:hover {
-   background-color: darkgrey;
-   border-color: darkgrey;
+   background-color: darkgoldenrod;
+   border-color: darkgoldenrod;
    color: white;
 }
 
@@ -113,8 +121,8 @@ button.btn.btn-primary.btn-lg {
 }
 
 button.btn.btn-primary.btn-lg:hover {
-   background-color: darkgrey;
-   border-color: darkgrey;
+   background-color: darkgoldenrod;
+   border-color: darkgoldenrod;
    color: white;
 }
 
@@ -129,8 +137,8 @@ label {
 }
 
 .btn-success:hover {
-   background-color: darkgrey;
-   border-color: darkgrey;
+   background-color: midnightblue;
+   border-color: midnightblue;
    color: white;
 }
 
@@ -147,4 +155,8 @@ label {
 
 footer {
     margin: 50px 0;
+}
+
+footer p {
+   margin-left: 70px;
 }
