@@ -77,6 +77,36 @@ background-color:#FFF
 
 }
 
+/*contacts box */
+
+button.btn.btn-lg {
+   margin-top: 46px;
+   width: 100%;
+   color: whitesmoke;
+   background-color: midnightblue;
+}
+
+button.btn.btn-default.btn-lg {
+   margin-top: 15px;
+   width: 100%;
+   color: whitesmoke;
+   background-color: midnightblue;
+}
+
+button.btn.btn-primary.btn-lg {
+   margin-top: 15px;
+   width: 100%;
+   color: whitesmoke;
+   background-color: midnightblue;
+}
+
+label {
+   margin-left: 68px;
+}
+
+.btn-success {
+   margin-left: 39%;
+}
 
 /* Customize the text color and shadow color and to optimize text legibility. */
 
