@@ -71,7 +71,11 @@ background-color:#FFF
 
 }
 
+.navbar-inverse {
+   background-color: midnightblue;
+   border-color: #333;
 
+}
 
 
 /* Customize the text color and shadow color and to optimize text legibility. */
