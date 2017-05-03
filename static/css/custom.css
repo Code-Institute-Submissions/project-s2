@@ -85,7 +85,7 @@ background-color:#FFF
     margin-left: -15px;
 }
 
-/*contacts box home body */
+/* box home body */
 
 button.btn.btn-lg {
    margin-top: 46px;
@@ -195,4 +195,15 @@ b, strong {
     background-color: #dd4b39;
     border-color: rgba(0, 0, 0, 0.2);
     margin-top: 10px;
+}
+
+
+#outer .col-sm-8 {
+    width: 66.66666667%;
+    margin-top: 80px;
+}
+
+#outer .col-sm-3 {
+    width: 25%;
+    margin-top: 80px;
 }
