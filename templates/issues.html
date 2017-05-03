@@ -13,16 +13,19 @@
 </head>
 
 <body>
+<div id="wrapper">
+  <img src="/static/images/banner.jpg" class="img-responsive" alt="">
+</div>
  <header id="header">
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="navbar navbar-inverse navbar-static-top" role="navigation">
     <div class="container-fluid">
       <div class="navbar-header">
         <a class="navbar-brand" href="./"></a>
-          <ul class="nav navbar-nav pull-left">
-              <li><a href= "{{ url_for('home') }}">home</a></li>
-              <li><a href= "{{ url_for('issues') }}">issues</a></li>
-              <li><a href= "{{ url_for('about') }}">about</a></li>
-              <li><a href= "{{ url_for('donate') }}">donate</a></li>
+          <ul class="nav navbar-nav">
+              <li><a href= "{{ url_for('home') }}">Home</a></li>
+              <li><a href= "{{ url_for('issues') }}">Issues</a></li>
+              <li><a href= "{{ url_for('about') }}">About</a></li>
+              <li><a href= "{{ url_for('donate') }}">Donate</a></li>
           </ul>
       </div>
     </div>
@@ -135,6 +138,38 @@
     </div>
   </div>
   <hr>
+
+ <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-6">
+                   <strong>Connect with us on:</strong><br>
+                     <a class="btn btn-social-icon btn-facebook" href="https://www.facebook.com">
+                         <span class="fa fa-facebook"></span>
+                     </a>
+                    <a class="btn btn-social-icon btn-twitter" href="https://twitter.com">
+                        <span class="fa fa-twitter"></span>
+                    </a>
+                     <a class="btn btn-social-icon btn-google" href="https://plus.google.com/explore">
+                         <span class="fa fa-google"></span>
+                     </a>
+                </div>
+
+                <div class="col-lg-6">
+                    <address>
+                        <strong>Contact us:</strong><br>
+                        Tel:<br>
+                        (202) 863-8000<br>
+                        Address:<br>
+                        430 South street<br>
+                        Washington, DC 20003
+                    </address>
+                   <p>Copyright &copy 2017, All rights reserved | Support@MarkW.com</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+    </div>
 
   <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
