@@ -164,3 +164,8 @@ address {
    float:right;
     text-align: right;
 }
+
+b, strong {
+   font-weight: 700;
+   margin-left: 68px;
+}
