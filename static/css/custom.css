@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 #number-projects-nd {
    font-size: 60px;
 }
@@ -5,9 +10,6 @@
 #total-donations-nd {
    font-size: 60px;
 }
-
-
-
 
 .dc-chart g.row text {
    fill: black;
@@ -83,6 +85,11 @@ background-color:#FFF
 #secondRow .row {
     margin-right: -15px;
     margin-left: -15px;
+}
+
+div.col-sm-2 {
+    width: 16.66666667%;
+    margin-top: 27px
 }
 
 /* box home body */
