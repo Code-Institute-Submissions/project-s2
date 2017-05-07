@@ -163,19 +163,19 @@ label {
 /* abouts page */
 
 #para1 .row {
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 53px;
+    margin-left: 53px;
+}
+
+#imgContainer .row {
+    margin-right: 53px;
+    margin-left: 53px;
 }
 
 #para2 .row {
-    margin-right: 80px;
-    margin-left: 80px;
+    margin-right: 53px;
+    margin-left: 53px;
 }
-
-
-
-
-
 
 /* footer */
 
