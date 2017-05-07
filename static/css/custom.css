@@ -92,6 +92,13 @@ div.col-sm-2 {
     margin-top: 12.5px;
 }
 
+#signImg .img-responsive {
+  width: 17%;
+  margin-top: -7%;
+  margin-left: 57%;
+  margin-bottom: -38px;
+}
+
 /* box home body */
 
 button.btn.btn-lg {
