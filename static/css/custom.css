@@ -77,6 +77,11 @@ background-color:#FFF
    border-color: #333;
 }
 
+.navbar-inverse .navbar-nav>li>a {
+    color: #fbfbfb;
+    text-decoration: none;
+}
+
 .navbar-inverse .navbar-nav>li>a:hover {
    color: darkgoldenrod;
 }
@@ -87,6 +92,11 @@ background-color:#FFF
     margin-left: -15px;
 }
 
+#secondRow p {
+    margin: 0 0 10px;
+    margin-bottom: 18px;
+}
+
 div.col-sm-2 {
     width: 16.66666667%;
     margin-top: 12.5px;
@@ -94,9 +104,9 @@ div.col-sm-2 {
 
 #signImg .img-responsive {
   width: 17%;
-  margin-top: -7%;
-  margin-left: 57%;
-  margin-bottom: -38px;
+  margin-top: -4%;
+  margin-left: -1%;
+  margin-bottom: -40px;
 }
 
 /* box home body */
