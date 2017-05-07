@@ -81,7 +81,7 @@ background-color:#FFF
    color: darkgoldenrod;
 }
 
-/*body*/
+/* body */
 #secondRow .row {
     margin-right: -15px;
     margin-left: -15px;
@@ -150,7 +150,6 @@ label {
    color: midnightblue;
 }
 
-/* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
     text-shadow: 0 0 10px #000;
@@ -160,6 +159,25 @@ label {
 .img-center {
     margin: 0 auto;
 }
+
+/* abouts page */
+
+#para1 .row {
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+#para2 .row {
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+
+
+
+
+
+/* footer */
 
 footer {
     margin: 50px 0;
