@@ -21,8 +21,8 @@ function makeGraphs(error, projectsJson) {
    var dateDim = ndx.dimension(function (d) {
        return d["date_posted"];
    });
-   var resourceTypeDim = ndx.dimension(function (d) {
-       return d["resource_type"];
+   var gradeLevelDim = ndx.dimension(function (d) {
+       return d["grade_level"];
    });
    var povertyLevelDim = ndx.dimension(function (d) {
        return d["poverty_level"];
@@ -41,7 +41,7 @@ function makeGraphs(error, projectsJson) {
 
    //Calculate metrics
    var numProjectsByDate = dateDim.group();
-   var numProjectsByResourceType = resourceTypeDim.group();
+   var numProjectsByGradeLevel = gradeLevelDim.group();
    var numProjectsByPovertyLevel = povertyLevelDim.group();
    var numProjectsByFundingStatus = fundingStatus.group();
    var totalDonationsByState = stateDim.group().reduceSum(function (d) {
@@ -63,7 +63,7 @@ function makeGraphs(error, projectsJson) {
 
    //Charts
    var timeChart = dc.barChart("#time-chart");
-   var resourceTypeChart = dc.rowChart("#resource-type-row-chart");
+   var gradeLevelChart = dc.rowChart("#grade-level-row-chart");
    var povertyLevelChart = dc.rowChart("#poverty-level-row-chart");
    var numberProjectsND = dc.numberDisplay("#number-projects-nd");
    var totalDonationsND = dc.numberDisplay("#total-donations-nd");
@@ -102,11 +102,11 @@ function makeGraphs(error, projectsJson) {
        .xAxisLabel("Year")
        .yAxis().ticks(4);
 
-   resourceTypeChart
+   gradeLevelChart
        .width(300)
        .height(250)
-       .dimension(resourceTypeDim)
-       .group(numProjectsByResourceType)
+       .dimension(gradeLevelDim)
+       .group(numProjectsByGradeLevel)
        .xAxis().ticks(4);
 
    povertyLevelChart

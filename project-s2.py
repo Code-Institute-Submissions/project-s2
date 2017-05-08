@@ -42,7 +42,7 @@ def school_projects():
     # A constant that defines the record fields that we wish to retrieve.
     FIELDS = {
         '_id': False, 'funding_status': True, 'school_state': True,
-        'resource_type': True, 'poverty_level': True,
+        'grade_level': True, 'poverty_level': True,
         'date_posted': True, 'total_donations': True
     }
 

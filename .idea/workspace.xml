@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2e30e051-d07d-436c-b43b-7b0839e390f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project-s2.py" afterPath="$PROJECT_DIR$/project-s2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/custom.css" afterPath="$PROJECT_DIR$/static/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/donate.html" afterPath="$PROJECT_DIR$/templates/donate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/issues.html" afterPath="$PROJECT_DIR$/templates/issues.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/graph.js" afterPath="$PROJECT_DIR$/static/js/graph.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,21 +20,31 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1905">
+              <caret line="127" column="20" lean-forward="false" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/custom.css">
+      <file leaf-file-name="project-s2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project-s2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="128" column="20" lean-forward="false" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+            <state relative-caret-position="219">
+              <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -43,25 +53,15 @@
       <file leaf-file-name="graph.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/graph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="1545">
+              <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="donate.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/donate.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="97" column="24" lean-forward="true" selection-start-line="97" selection-start-column="24" selection-end-line="97" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/lib/css/bootstrap.min.css">
+      <file leaf-file-name="keen.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/lib/js/keen.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -70,50 +70,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="55" column="19" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="61" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="issues.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/issues.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="36" column="14" lean-forward="false" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-              <folding>
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="153" column="10" lean-forward="true" selection-start-line="153" selection-start-column="10" selection-end-line="153" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="signature.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/images/signature.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="introjs.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/lib/css/introjs.css">
+      <file leaf-file-name="jquery.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/lib/js/jquery.min.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intro.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/lib/js/intro.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-15854">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dc.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/lib/js/dc.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5707">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="d3.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/lib/js/d3.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5691">
+              <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="crossfilter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/lib/js/crossfilter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15577">
+              <caret line="1184" column="31" lean-forward="false" selection-start-line="1184" selection-start-column="31" selection-end-line="1184" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -147,15 +148,15 @@
         <option value="$PROJECT_DIR$/static/lib/js/jquery.min.js" />
         <option value="$PROJECT_DIR$/static/lib/js/keen.min.js" />
         <option value="$PROJECT_DIR$/static/lib/js/queue.js" />
-        <option value="$PROJECT_DIR$/static/js/graph.js" />
         <option value="$USER_HOME$/flaskVE/lib/python2.7/site-packages/flask/app.py" />
-        <option value="$PROJECT_DIR$/project-s2.py" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/about.html" />
         <option value="$PROJECT_DIR$/templates/donate.html" />
         <option value="$PROJECT_DIR$/templates/issues.html" />
         <option value="$PROJECT_DIR$/static/css/custom.css" />
+        <option value="$PROJECT_DIR$/project-s2.py" />
+        <option value="$PROJECT_DIR$/static/js/graph.js" />
       </list>
     </option>
   </component>
@@ -211,6 +212,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-s2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-s2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-s2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="project-s2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,13 +511,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1493219403450</updated>
-    </task>
-    <task id="LOCAL-00030" summary="update">
-      <created>1493670751185</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1493670751185</updated>
     </task>
     <task id="LOCAL-00031" summary="update">
       <created>1493733160574</created>
@@ -818,11 +848,18 @@
       <option name="project" value="LOCAL" />
       <updated>1494166795255</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="update3">
+      <created>1494239687548</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1494239687549</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="741" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30048466" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -1083,34 +1120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/intro.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1415">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/dc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/crossfilter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17760">
-          <caret line="1184" column="31" lean-forward="false" selection-start-line="1184" selection-start-column="31" selection-end-line="1184" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/lib/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-95">
@@ -1118,41 +1127,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/keen.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4957">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/d3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/lib/js/queue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/flaskVE/lib/python2.7/site-packages/flask/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="1049" column="80" lean-forward="false" selection-start-line="1049" selection-start-column="80" selection-end-line="1049" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project-s2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="72" column="0" lean-forward="true" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#23#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1164,13 +1142,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/lib/css/dc.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1218,14 +1189,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/graph.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="296">
@@ -1260,10 +1223,90 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/lib/js/queue.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lib/js/keen.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lib/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lib/js/intro.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15854">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lib/js/dc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5707">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lib/js/d3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5691">
+          <caret line="19" column="3" lean-forward="false" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/lib/js/crossfilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15577">
+          <caret line="1184" column="31" lean-forward="false" selection-start-line="1184" selection-start-column="31" selection-end-line="1184" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project-s2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/graph.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1545">
+          <caret line="103" column="0" lean-forward="true" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="128" column="20" lean-forward="false" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
+        <state relative-caret-position="1905">
+          <caret line="127" column="20" lean-forward="false" selection-start-line="127" selection-start-column="20" selection-end-line="127" selection-end-column="20" />
           <folding />
         </state>
       </provider>

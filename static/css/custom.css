@@ -125,8 +125,9 @@ label {
 /* issues page*/
 
 #outer h4 {
-   margin-left: 37%;
+   margin-left: 36.5%;
    margin-bottom: 20px;
+   margin-top: -3px
 }
 
 #number-projects-nd {
