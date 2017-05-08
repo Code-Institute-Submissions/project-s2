@@ -3,61 +3,6 @@ html, body {
     overflow-x: hidden;
 }
 
-#number-projects-nd {
-   font-size: 60px;
-}
-
-#total-donations-nd {
-   font-size: 60px;
-}
-
-.dc-chart g.row text {
-   fill: black;
-   font-size: 12px;
-}
-
-#total-projects {
-   background: #33CC99;
-   width: 200px;
-   position: relative;
-   height: 60px;
-   font-size: 29px;
-   color: white;
-   vertical-align: middle;
-   text-align: center;
-   padding-top: 12px;
-   padding-bottom: 0px;
-}
-
-#net-donations {
-   background: #33CC99;
-   width: 200px;
-   position: relative;
-   height: 60px;
-   font-size: 29px;
-   color: white;
-   vertical-align: middle;
-   text-align: center;
-   padding-top: 12px;
-   padding-bottom: 0px;
-}
-
-
-.dc-select-menu {
-   background: #33CC99;
-   width: 80%;
-   border: none;
-   position: relative;
-   height: 31px;
-   font-size: 15px;
-   color: white;
-   vertical-align: middle;
-   text-align: center;
-   padding-top: 4px;
-   padding-bottom: 0px;
-
-}
-
 /* Header */
 
 
@@ -177,6 +122,83 @@ label {
     margin: 0 auto;
 }
 
+/* issues page*/
+
+#outer h4 {
+   margin-left: 37%;
+   margin-bottom: 20px;
+}
+
+#number-projects-nd {
+   font-size: 60px;
+}
+
+#total-donations-nd {
+   font-size: 60px;
+}
+
+.dc-chart g.row text {
+   fill: black;
+   font-size: 12px;
+}
+
+#total-projects {
+   background: #33CC99;
+   width: 200px;
+   position: relative;
+   height: 60px;
+   font-size: 29px;
+   color: white;
+   vertical-align: middle;
+   text-align: center;
+   padding-top: 12px;
+   padding-bottom: 0px;
+}
+
+#net-donations {
+   background: #33CC99;
+   width: 200px;
+   position: relative;
+   height: 60px;
+   font-size: 29px;
+   color: white;
+   vertical-align: middle;
+   text-align: center;
+   padding-top: 12px;
+   padding-bottom: 0px;
+}
+
+
+.dc-select-menu {
+   background: #33CC99;
+   width: 80%;
+   border: none;
+   position: relative;
+   height: 31px;
+   font-size: 15px;
+   color: white;
+   vertical-align: middle;
+   text-align: center;
+   padding-top: 4px;
+   padding-bottom: 0px;
+
+}
+
+#issuesPara .row {
+    margin-top: -10px;
+    margin-bottom: -25px;
+}
+
+#issuesPara h4 {
+    font-size: 18px;
+    margin-left: 40%;
+}
+
+#issuesPara p {
+    margin: 0 0 10px;
+    margin-bottom: 30px;
+}
+
 /* abouts page */
 
 #para1 .row {
@@ -192,12 +214,41 @@ label {
 
 #para1 h4 {
     font-size: 18px;
-    margin-left: 46%;
+    margin-left: 47.5%;
 }
 
 #para1 p {
     margin: 0 0 10px;
     margin-bottom: 30px;
+}
+
+/*donate page*/
+
+#donate1 .row {
+    margin-top: -10px;
+    margin-bottom: -25px;
+}
+
+#donate1 h4 {
+    font-size: 18px;
+    margin-left: 44.4%;
+}
+
+#donate1 p {
+    margin: 0 0 10px;
+    margin-bottom: 30px;
+}
+
+#donateSubmit button {
+    margin-left: 93%;
+}
+
+#donate2 textarea {
+    width: 98.2%;
+}
+
+#donate2 label {
+    margin-left: 3px;
 }
 
 /* footer */
