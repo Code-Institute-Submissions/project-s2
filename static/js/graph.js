@@ -1,11 +1,11 @@
 queue()
-   .defer(d3.json, "/donorsChooseU/school_projects")
+   .defer(d3.json, "/donorsChooseU/schoolprojects")
    .await(makeGraphs);
 
 function makeGraphs(error, projectsJson) {
 
    //Clean projectsJson data
-   var donorsChooseU_school_projects = projectsJson;
+   var donorsChooseU_schoolprojects = projectsJson;
    var dateFormat = d3.time.format("%Y-%m-%d %H:%M:%S");
    donorsChooseU_school_projects.forEach(function (d) {
        d["date_posted"] = dateFormat.parse(d["date_posted"]);
@@ -15,14 +15,14 @@ function makeGraphs(error, projectsJson) {
 
 
    //Create a Crossfilter instance
-   var ndx = crossfilter(donorsChooseU_school_projects);
+   var ndx = crossfilter(donorsChooseU_schoolprojects);
 
    //Define Dimensions
    var dateDim = ndx.dimension(function (d) {
        return d["date_posted"];
    });
-   var gradeLevelDim = ndx.dimension(function (d) {
-       return d["grade_level"];
+   var resourceTypeDim = ndx.dimension(function (d) {
+       return d["resource_type"];
    });
    var povertyLevelDim = ndx.dimension(function (d) {
        return d["poverty_level"];
@@ -41,7 +41,7 @@ function makeGraphs(error, projectsJson) {
 
    //Calculate metrics
    var numProjectsByDate = dateDim.group();
-   var numProjectsByGradeLevel = gradeLevelDim.group();
+   var numProjectsByResourceType = resourceTypeDim.group();
    var numProjectsByPovertyLevel = povertyLevelDim.group();
    var numProjectsByFundingStatus = fundingStatus.group();
    var totalDonationsByState = stateDim.group().reduceSum(function (d) {
@@ -63,7 +63,7 @@ function makeGraphs(error, projectsJson) {
 
    //Charts
    var timeChart = dc.barChart("#time-chart");
-   var gradeLevelChart = dc.rowChart("#grade-level-row-chart");
+   var resourceTypeChart = dc.rowChart("#resource-type-row-chart");
    var povertyLevelChart = dc.rowChart("#poverty-level-row-chart");
    var numberProjectsND = dc.numberDisplay("#number-projects-nd");
    var totalDonationsND = dc.numberDisplay("#total-donations-nd");
@@ -102,11 +102,11 @@ function makeGraphs(error, projectsJson) {
        .xAxisLabel("Year")
        .yAxis().ticks(4);
 
-   gradeLevelChart
+   resourceTypeChart
        .width(300)
        .height(250)
-       .dimension(gradeLevelDim)
-       .group(numProjectsByGradeLevel)
+       .dimension(resourceTypeDim)
+       .group(numProjectsByResourceType)
        .xAxis().ticks(4);
 
    povertyLevelChart

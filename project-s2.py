@@ -8,7 +8,7 @@ app = Flask(__name__)
 MONGODB_HOST = 'localhost'
 MONGODB_PORT = 27017
 DBS_NAME = 'donorsChooseUS'
-COLLECTION_NAME = 'schoolprojects'
+COLLECTION_NAME = 'school_projects'
 
 @app.route("/")
 def index():
@@ -32,8 +32,8 @@ def issues():
     """
     return render_template("issues.html")
 
-@app.route("/donorsChooseU/school_projects")
-def school_projects():
+@app.route("/donorsChooseU/schoolprojects")
+def schoolprojects():
     """
     A Flask view to serve the project data from
     MongoDB in JSON format.
@@ -42,7 +42,7 @@ def school_projects():
     # A constant that defines the record fields that we wish to retrieve.
     FIELDS = {
         '_id': False, 'funding_status': True, 'school_state': True,
-        'grade_level': True, 'poverty_level': True,
+        'resource_type': True, 'poverty_level': True,
         'date_posted': True, 'total_donations': True
     }
 

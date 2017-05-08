@@ -1,0 +1,1 @@
+web: gunicorn project-s2:app
