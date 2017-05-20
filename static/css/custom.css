@@ -155,6 +155,18 @@ label {
    margin-left: -15%
 }
 
+div.How-h5 {
+   margin-top: -9px;
+}
+
+div.less-h5 {
+   margin-top: -10px;
+}
+
+div.col-sm-12 li {
+   padding-right: 43px;
+}
+
 
 #number-projects-nd {
    font-size: 60px;
