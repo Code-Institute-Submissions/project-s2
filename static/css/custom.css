@@ -238,6 +238,22 @@ div.col-sm-12 li {
     margin-bottom: 30px;
 }
 
+#total-donations-nd {
+    font-size: 30px;
+}
+
+div.fundbox div.col-sm-2 {
+    width: 12%;
+    margin-top: 1px;
+    margin-bottom: -19px;
+    float: right;
+}
+
+div.col-sm-2 div.chart-title {
+    font-size: 9px;
+    font-weight: 500;
+}
+
 /* abouts page */
 
 #para1 .row {
@@ -259,6 +275,13 @@ div.col-sm-12 li {
 #para1 p {
     margin: 0 0 10px;
     margin-bottom: 30px;
+}
+
+div.chart-wrapper {
+    background: #fff;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+    margin-bottom: 10px;
 }
 
 /*donate page*/
