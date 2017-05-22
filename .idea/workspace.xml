@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e30e051-d07d-436c-b43b-7b0839e390f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -477,13 +476,6 @@
       <option name="presentableId" value="Default" />
       <updated>1493219403450</updated>
     </task>
-    <task id="LOCAL-00047" summary="update">
-      <created>1493756826485</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1493756826485</updated>
-    </task>
     <task id="LOCAL-00048" summary="update">
       <created>1493759765900</created>
       <option name="number" value="00048" />
@@ -820,7 +812,14 @@
       <option name="project" value="LOCAL" />
       <updated>1495464586968</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="1.Added link to contacts button home page">
+      <created>1495467150648</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1495467150648</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -891,7 +890,8 @@
     <MESSAGE value="Created and edited h5 margin for issues page in CSS.&#10;Edited bio text on home page.&#10;Added new text for issues page." />
     <MESSAGE value="1.Edited CSS for abouts page&#10;2.Changed Chart wrapper &amp; Chart title CSS in Keen dashboard&#10;3.Added new text in abouts page&#10;4.Edited text on donation page&#10;5.Created links for buttons on home page&#10;6.Edited &amp; Added text for issues page" />
     <MESSAGE value="1.Edited bio text home page" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Edited bio text home page" />
+    <MESSAGE value="1.Added link to contacts button home page" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Added link to contacts button home page" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
