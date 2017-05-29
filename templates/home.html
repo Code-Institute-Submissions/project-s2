@@ -145,16 +145,11 @@
 							</div>
 						</div>
 
-                        <div class="form-group">
+                        <form action="" onSubmit="alert('You are now subscribed, thank you.');">
                             <label for="email">Subscribe for campaign updates</label>
-                            <input type="email" class="form-control" id="email" placeholder="Enter your email & click submit" required="required"/>
-
-                        </div>
-
-						<div class="form-group ">
-                          <button type="button" class="btn btn-success">Submit</button>
-                        </div>
-					</form>
+                            <input type="email" class="form-control" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Enter email & click submit" required="required"/>
+                            <button type="submit" class="btn btn-success">Submit</button>
+                        </form>
 				</div>
 			</div>
 		</div>

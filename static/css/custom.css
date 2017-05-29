@@ -94,7 +94,8 @@ label {
 }
 
 .btn-success {
-   margin-left: 39%;
+   margin-left: 40%;
+   margin-top: 2%;
    background-color: darkgoldenrod;
    border-color: darkgoldenrod;
 }
