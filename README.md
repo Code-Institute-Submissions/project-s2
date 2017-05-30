@@ -35,7 +35,7 @@ This allows app data to be filtered and interactive.
   - **Jquery** is a fast, small, and feature-rich JavaScript library. It makes things like 
     HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an
     easy-to-use API that works across a multitude of browsers.
-- [MongoDB](https://www.npmjs.com/)
+- [MongoDB](https://www.mongodb.com/)
   - **MongoDB** is an open source database that uses a document-oriented data model.
     Instead of using tables and rows as in relational databases, MongoDB is built on an architecture of 
     collections and documents. Documents comprise sets of key-value pairs and are the basic unit of data
@@ -48,7 +48,7 @@ This allows app data to be filtered and interactive.
 - [D3.js](https://d3js.org/)
   - **D3.js** is a JavaScript library for manipulating documents based on data. D3 helps you bring data to life using 
     HTML, SVG, and CSS. 
-- [DC.js](https://www.npmjs.com/)
+- [DC.js](https://dc-js.github.io/dc.js/)
   - **DC.js** is a javascript charting library with native crossfilter support, allowing highly efficient 
     exploration on large multi-dimensional datasets (inspired by crossfilter's demo). It leverages d3 to render charts 
     in CSS-friendly SVG format. Charts rendered using dc.js are data driven and reactive and therefore provide instant 
