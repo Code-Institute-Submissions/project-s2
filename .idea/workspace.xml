@@ -348,13 +348,6 @@
       <option name="presentableId" value="Default" />
       <updated>1493219403450</updated>
     </task>
-    <task id="LOCAL-00050" summary="update">
-      <created>1493819361001</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1493819361003</updated>
-    </task>
     <task id="LOCAL-00051" summary="update">
       <created>1493820453107</created>
       <option name="number" value="00051" />
@@ -691,7 +684,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496066852302</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="1.Added README file.">
+      <created>1496164427376</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1496164427377</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -765,7 +765,8 @@
     <MESSAGE value="1.Added link to contacts button home page" />
     <MESSAGE value="1.Added target to open link on new tab." />
     <MESSAGE value="1.Changed button location home page.&#10;2.Added form validation &amp; onsubmit alert on donate page.&#10;3.Changed placeholder text email form home page.&#10;4.Updated home page changes to index page." />
-    <option name="LAST_COMMIT_MESSAGE" value="1.Changed button location home page.&#10;2.Added form validation &amp; onsubmit alert on donate page.&#10;3.Changed placeholder text email form home page.&#10;4.Updated home page changes to index page." />
+    <MESSAGE value="1.Added README file." />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Added README file." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
