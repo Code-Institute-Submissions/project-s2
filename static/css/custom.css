@@ -116,7 +116,7 @@ label {
     margin: 0 auto;
 }
 
-/* issues page*/
+/* issues page */
 
 #outer h4 {
    margin-left: 36.5%;
@@ -285,7 +285,7 @@ div.chart-wrapper {
     margin-bottom: 10px;
 }
 
-/*donate page*/
+/* donate page */
 
 #donate1 .row {
     margin-top: -10px;
@@ -494,7 +494,7 @@ label {
     margin: 0 auto;
 }
 
-/* issues page*/
+/* issues page */
 
 #outer h4 {
    margin-left: 36.5%;
@@ -663,7 +663,7 @@ div.chart-wrapper {
     margin-bottom: 10px;
 }
 
-/*donate page*/
+/* donate page */
 
 #donate1 .row {
     margin-top: -10px;
@@ -756,6 +756,138 @@ b, strong {
 /* Small devices (tablets, 768px and up) */
 @media only screen and (min-width: 321px) and (max-width: 768px){
 
+/* home page */
+
+div.col-sm-2{
+    width: 20.66666667%;
+    margin-top: 12.5px;
+}
+
+div.col-sm-10{
+    width: 79.33333333%;
+}
+
+label{
+    font-size: 12px;
+    margin-left: 16px;
+}
+
+.btn-success {
+    margin-left: 32.4%;
+}
+
+footer .row {
+    margin-right: -58px;
+    margin-left: -58px
+}
+
+footer p{
+    margin-right: -16.8%;
+    float: right;
+    margin-top: 7%;
+}
+
+address{
+    margin-right: 69px;
+    float: right;
+    text-align: right;
+    margin-top: -7.4%;
+}
+
+/* issues page */
+
+#outer h4{
+    margin-left: 30%;
+}
+
+#outer div.col-sm-12{
+    padding-right: 82%;
+    margin-left: -2.5%;
+}
+
+#outer div.col-sm-12 div.chart-title{
+    padding-left: 15%;
+}
+
+.dc-select-menu{
+    margin-left: 1%;
+}
+
+.chart-wrapper .chart-stage{
+    padding: 5px 5px;
+}
+
+#outer div.col-xs-9{
+    width: 75%;
+}
+
+div#fundtxt.col-sm-3{
+    width: 100%;
+}
+
+div#linechrt.col-xs-9{
+    width: 110%;
+    margin-left: -5%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+div.fundbox div.col-sm-2{
+    width: 17.4%;
+}
+
+div#planPara.col-sm-12{
+    margin-left: -0.1%;
+    padding-right: 0;
+}
+
+#issuesPara h4{
+    margin-left: 34%;
+}
+
+div#time-chart.dc-chart{
+    transform: perspective(300px) scale3d(0.8, 1, 0.2) translateZ(100px);
+    left: -7%;
+    position: relative;
+}
+
+div#funding-chart.dc-chart{
+    transform: perspective(500px) scale3d(0.7, 1, 0.2) translateZ(100px);
+    left: -9%;
+    position: relative;
+}
+
+div#poverty-level-row-chart.dc-chart{
+    transform: perspective(300px) scale3d(0.7, 1, 0.2) translateZ(100px);
+    left: -20%;
+    position: relative;
+}
+
+div#grade-level-row-chart.dc-chart{
+    transform: perspective(300px) scale3d(0.7, 1, 0.2) translateZ(100px);
+    left: -20.8%;
+    position: relative;
+}
+
+/* about page */
+
+#para1 h4{
+   margin-left: 46%;
+}
+
+/* donate page */
+
+#donate1 h4{
+    margin-left: 40.5%;
+}
+
+#donate2 textarea{
+    width: 100%;
+}
+
+#donateSubmit button{
+    margin-left: 90%;
+}
 
 }
 
