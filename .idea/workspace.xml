@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2e30e051-d07d-436c-b43b-7b0839e390f9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/custom.css" afterPath="$PROJECT_DIR$/static/css/custom.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/issues.html" afterPath="$PROJECT_DIR$/templates/issues.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -363,13 +359,6 @@
       <option name="presentableId" value="Default" />
       <updated>1493219403450</updated>
     </task>
-    <task id="LOCAL-00056" summary="update">
-      <created>1493823050494</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1493823050494</updated>
-    </task>
     <task id="LOCAL-00057" summary="update">
       <created>1493823289252</created>
       <option name="number" value="00057" />
@@ -706,7 +695,14 @@
       <option name="project" value="LOCAL" />
       <updated>1496165880183</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="1.Edited CSS (responsive)&#10;2.Edited links in footer">
+      <created>1496516549861</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1496516549862</updated>
+    </task>
+    <option name="localTasksCounter" value="106" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -785,7 +781,8 @@
     <MESSAGE value="1.Edited Custom.css" />
     <MESSAGE value="Added responsive design for 992px and up in Custom.css" />
     <MESSAGE value="Edited README file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Edited README file" />
+    <MESSAGE value="1.Edited CSS (responsive)&#10;2.Edited links in footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.Edited CSS (responsive)&#10;2.Edited links in footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
