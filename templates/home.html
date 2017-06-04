@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
   <title>Home</title>
     <link rel="stylesheet" href="{{ url_for ('static', filename='lib/css/bootstrap.min.css')}}">
     <link rel="stylesheet" href="{{ url_for ('static', filename='css/custom.css')}}">
@@ -124,7 +125,7 @@
 						<div class="form-group">
 							<div class="cols-sm-10">
 								<div>
-                                    <a href="{{ url_for('donate') }}"><button type="button" class="btn btn-lg"> Donate</button></a>
+                                    <a href="{{ url_for('donate') }}" class="btn btn-lg">Donate</a>
 								</div>
 							</div>
 						</div>
@@ -132,7 +133,7 @@
 						<div class="form-group">
 							<div class="cols-sm-10">
 								<div>
-                                    <a target="_blank" href="https://my.democrats.org/page/s/help-elect-democrats"><button type="button" class="btn btn-default btn-lg">Volunteer</button></a>
+                                    <a target="_blank" href="https://my.democrats.org/page/s/help-elect-democrats" class="btn btn-default btn-lg">Volunteer</a>
 								</div>
 							</div>
 						</div>
@@ -140,12 +141,12 @@
 						<div class="form-group">
 							<div class="cols-sm-10">
 								<div>
-                                    <a target="_blank" href="https://my.democrats.org/page/s/contact-the-democrats"><button type="button" class="btn btn-primary btn-lg">Contact</button></a>
+                                    <a target="_blank" href="https://my.democrats.org/page/s/contact-the-democrats" class="btn btn-primary btn-lg">Contact</a>
 								</div>
 							</div>
 						</div>
 
-                        <form action="" onSubmit="alert('You are now subscribed, thank you.');">
+                        <form action="#" onSubmit="alert('You are now subscribed, thank you.');">
                             <label for="email">Subscribe for campaign updates</label>
                             <input type="email" class="form-control" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Enter email & click submit" required="required"/>
                             <button type="submit" class="btn btn-success">Submit</button>
@@ -181,13 +182,11 @@
                         430 South street<br>
                         Washington, DC 20003
                     </address>
-                   <p>Copyright &copy 2017, All rights reserved | Support@MarkW.com</p>
+                   <p>Copyright &copy; 2017, All rights reserved | Support@MarkW.com</p>
                 </div>
             </div>
             <!-- /.row -->
         </footer>
-
-    </div>
 
   <script src="{{ url_for ('static', filename='lib/js/jquery.min.js')}}"></script>
   <script src="{{ url_for ('static', filename='lib/js/bootstrap.min.js')}}"></script>
