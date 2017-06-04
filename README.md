@@ -66,6 +66,28 @@ This allows app data to be filtered and interactive.
     
 ## Testing
  
+**Functionality:**
+- Checked all the links worked on all pages.
+- Tested forms on all pages.
+- Validated HTML/CSS using W3C.
+- Checked all queries were executing correctly from database.
+- Made sure there was compatibility with different browser platforms. This project was
+  tested on; Safari, Chrome, Firefox, Opera, and MS Edge.
+- Tested responsiveness and compatibility on mobile devices, IOS and Android.
+ 
+ ##What was kept
+ 
+- Flask py file - This was kept and modified as needed.
+- CSV file - Upload this file to my database unchanged. This file can 
+  be downloaded from [donorschoose.org](http://www.donorschoose.org).
+- graph.js - This file was modified in order to link to my flask py file.
+- These files were kept and unchanged: Crossfilter.js, d3.js, dc.js, intro.js, jquery.min.js,
+  keen.min.js, queue.js, dc.css, and introjs.cs.
+  
+ ##Deployment
+
+- This project was uploaded and deployed on Heroku. 
+ 
  
 
 
