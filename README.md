@@ -86,7 +86,7 @@ This allows app data to be filtered and interactive.
   
 ##Deployment
 
-- This project was uploaded and deployed on Heroku. 
+- This project was uploaded and deployed on Heroku.
  
  
 
