@@ -75,7 +75,7 @@ This allows app data to be filtered and interactive.
   tested on; Safari, Chrome, Firefox, Opera, and MS Edge.
 - Tested responsiveness and compatibility on mobile devices, IOS and Android.
 
-##What was kept
+## What was kept
  
 - Flask py file - This was kept and modified as needed.
 - CSV file - Upload this file to my database unchanged. This file can 
@@ -84,7 +84,7 @@ This allows app data to be filtered and interactive.
 - These files were kept and unchanged: Crossfilter.js, d3.js, dc.js, intro.js, jquery.min.js,
   keen.min.js, queue.js, dc.css, and introjs.cs.
   
-##Deployment
+## Deployment
 
 - This project was uploaded and deployed on Heroku.
  
