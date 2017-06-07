@@ -7,7 +7,7 @@ function makeGraphs(error, projectsJson) {
    //Clean projectsJson data
    var donorsChooseU_schoolprojects = projectsJson;
    var dateFormat = d3.time.format("%Y-%m-%d %H:%M:%S");
-   donorsChooseU_schoolprojects.forEach(function (d) {
+   donorsChooseU_projects.forEach(function (d) {
        d["date_posted"] = dateFormat.parse(d["date_posted"]);
        d["date_posted"].setDate(1);
        d["total_donations"] = +d["total_donations"];
