@@ -665,6 +665,11 @@ button.btn.btn-success{
     margin-left: 40%;
 }
 
+label{
+   font-size: 12px;
+   margin-left: 22%;
+}
+
 /* issues page */
 
 #outer h4{
